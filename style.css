@@ -1,0 +1,54 @@
+body {
+    background-image: url("/Projetos/site mica/Pictures/background.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 5px;
+}
+/* Estilos para telas menores que 600px */
+@media (max-width: 600px) {
+    section {
+      min-width: 80%;
+    }
+  }
+  /* Estilos para telas maiores que 600px */
+  @media (min-width: 600px) {
+    section {
+      max-width: 50%;
+    }
+  }  
+section{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.678);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin: auto;
+}
+img#icon{
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+    border-radius: 6%;
+    /*box-shadow: 50px 50px 50px,rgba(255, 255, 255, 0.781);*/
+}
+#pic{
+    max-width: 70%;
+    max-height: 70%;
+    padding: 4px;
+    border-radius: 5%;
+}
+.txt{
+    padding-left: 5%;
+}
+#div{
+    width: 100%;
+    position: relative;
+}
+#social{
+  width: 7%;
+  height: 7%;
+}
