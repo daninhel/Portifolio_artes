@@ -17,8 +17,10 @@ body {
   @media (min-width: 600px) {
     section {
       max-width: 50%;
+      background-attachment: fixed;
     }
-  }  
+  }
+
 section{
     min-height: 100vh;
     background-color: rgba(0, 0, 0, 0.678);
@@ -28,27 +30,42 @@ section{
     border-radius: 10px;
     margin: auto;
 }
+
 img#icon{
     margin-top: 5%;
-    width: 30%;
-    height: 30%;
+    width: 37%;
+    height: 37%;
     border-radius: 6%;
-    /*box-shadow: 50px 50px 50px,rgba(255, 255, 255, 0.781);*/
+    filter: drop-shadow(5px 5px 30px #b8b8b8bb);
 }
+
+a{
+  text-decoration-line: none;
+}
+
 #pic{
     max-width: 70%;
     max-height: 70%;
     padding: 4px;
     border-radius: 5%;
 }
+
 .txt{
-    padding-left: 5%;
+    margin-left: 5%;
+    padding-bottom: -40px;
 }
+
 #div{
     width: 100%;
     position: relative;
 }
+
 #social{
   width: 7%;
   height: 7%;
+}
+
+#thank{
+  padding-left: 5%;
+  padding-bottom: 3%;
 }
