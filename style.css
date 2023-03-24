@@ -1,25 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+/* style for big screns */
+@media (max-width: 600px) {
+  section {
+    min-width: 80%;
+  }
+}
+/* style for small screns*/
+@media (min-width: 600px) {
+  section {
+    max-width: 50%;
+    background-size: 110%;
+  }
+}
+/* background and font properties*/
 body {
     background-image: url("./Pictures/background.png");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     color: white;
     padding: 5px;
 }
-/* Estilos para telas menores que 600px */
-@media (max-width: 600px) {
-    section {
-      min-width: 80%;
-    }
-  }
-  /* Estilos para telas maiores que 600px */
-  @media (min-width: 600px) {
-    section {
-      max-width: 50%;
-      background-attachment: fixed;
-    }
-  }
 
 section{
     min-height: 100vh;
@@ -31,41 +34,64 @@ section{
     margin: auto;
 }
 
+/*pictures proprerties*/
 img#icon{
     margin-top: 5%;
-    width: 37%;
-    height: 37%;
-    border-radius: 6%;
+    width: 38%;
+    height: 38%;
     filter: drop-shadow(5px 5px 30px #b8b8b8bb);
+}
+
+#pic{
+  max-width: 70%;
+  max-height: 70%;
+  padding: 4px;
+  border-radius: 2%;
+}
+
+#div{
+  width: 100%;
+  position: relative;
+}
+
+#social{
+width: 7%;
+height: 7%;
+}
+
+/*  caracter properties */
+h1#name{
+  font-size: 250%;
+}
+
+h1{
+  font-size: 175%;
 }
 
 a{
   text-decoration-line: none;
 }
 
-#pic{
-    max-width: 70%;
-    max-height: 70%;
-    padding: 4px;
-    border-radius: 5%;
+
+.txt-info{
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: medium;
+}
+
+.title{
+  margin-left: 5.5%;
 }
 
 .txt{
-    margin-left: 5%;
-    padding-bottom: -40px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: medium;
 }
 
-#div{
-    width: 100%;
-    position: relative;
-}
-
-#social{
-  width: 7%;
-  height: 7%;
-}
-
-#thank{
-  padding-left: 5%;
-  padding-bottom: 3%;
+.txt-end{
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-bottom: 2%;
+  font-size: medium;
 }
