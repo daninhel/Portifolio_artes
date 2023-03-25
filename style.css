@@ -9,7 +9,7 @@
 /* style for small screns*/
 @media (min-width: 600px) {
   body {
-    background-size: cover 100%;
+    background-size: cover 120%;
   }
   section {
     max-width: 50%;
