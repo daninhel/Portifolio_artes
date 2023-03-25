@@ -10,7 +10,6 @@
 @media (min-width: 600px) {
   body {
     background-size: cover;
-    background-attachment: fixed; /* adicionado para fixar o background */
   }
   section {
     max-width: 50%;
@@ -23,6 +22,7 @@ body {
   background-image: url("./Pictures/background.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: 'Source Code Pro', monospace;
   color: white;
   padding: 5px;
