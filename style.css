@@ -25,13 +25,13 @@
 
 /* background and font properties*/
 body {
-    background-image: url("./Pictures/background.png");
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    font-family: 'Source Code Pro', monospace;
-    color: white;
-    padding: 5px;
+  background-image: url("./Pictures/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  padding: 5px;
+  background-position: center;
 }
 
 section{
