@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 
-/* style for big screns */
 @media (max-width: 600px) {
   section {
     min-width: 80%;
@@ -28,11 +27,9 @@ body {
   padding: 5px;
   background-position: center;
 }
-
-
 section{
     min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.678);
+    background-color: rgba(0, 0, 0, 0.85);
     background-size: auto 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
