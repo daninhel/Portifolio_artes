@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 
+/* style for small screns*/
 @media (max-width: 600px) {
   body{
-    background-size: cover;
+    background-size: 100% 100%;
   }
   
   section {
@@ -14,10 +15,10 @@
     height: 12%;
   }
 }
-/* style for small screns*/
+
 @media (min-width: 600px) {
   body {
-    background-size: 100% 100%;
+    background-size: cover;
   }
 
   #social{
