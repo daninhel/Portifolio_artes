@@ -2,7 +2,7 @@
 
 @media (max-width: 600px) {
   body{
-    background-size: 100% 100%;
+    background-size: cover;
   }
   
   section {
@@ -17,12 +17,12 @@
 /* style for small screns*/
 @media (min-width: 600px) {
   body {
-    background-size: cover;
+    background-size: 100% 100%;
   }
 
   #social{
-    width: 10%;
-    height: 10%;
+    width: 12%;
+    height: 12%;
   }
 
   section {
