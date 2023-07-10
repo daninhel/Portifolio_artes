@@ -4,6 +4,7 @@
 @media (max-width: 600px) {
   body{
     background-size: 100% 100%;
+    background-attachment: fixed;
   }
   
   section {
@@ -36,7 +37,6 @@
 body {
   background-image: url("./Pictures/background.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   font-family: 'Source Code Pro', monospace;
   color: white;
   padding: 5px;
