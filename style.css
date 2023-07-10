@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 
 @media (max-width: 600px) {
+  body{
+    background-size: 100% auto;
+  }
+  
   section {
     min-width: 80%;
   }
@@ -30,7 +34,6 @@
 /* background and font properties*/
 body {
   background-image: url("./Pictures/background.png");
-  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Source Code Pro', monospace;
