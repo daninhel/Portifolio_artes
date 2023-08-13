@@ -2,7 +2,7 @@
 
 @media (max-width: 600px) {
   body{
-    background-image: url("./Pictures/mobilebackground.png");
+    background-image: url("./Pictures/mobilebackground.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +21,7 @@
 /* style for small screns*/
 @media (min-width: 600px) {
   body {
-    background-image: url("./Pictures/pcbackground.png");
+    background-image: url("./Pictures/pcbackground.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,10 +41,6 @@
 
 /*font properties*/
 body {
-  /*background-image: url("./Pictures/pcbackground.png");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;*/
   font-family: 'Source Code Pro', monospace;
   color: white;
   padding: 5px;
