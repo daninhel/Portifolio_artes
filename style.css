@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
+
+@media (max-width: 600px) {
+  body{
+    background-image: url("./Pictures/mobilebackground.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  section {
+    min-width: 80%;
+  }
+
+  #social{
+    width: 12%;
+    height: 12%;
+  }
+}
+/* style for small screns*/
+@media (min-width: 600px) {
+  body {
+    background-image: url("./Pictures/pcbackground.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  #social{
+    width: 10%;
+    height: 10%;
+  }
+
+  section {
+    max-width: 50%;
+    background-size: 110%;
+  }
+}
+
+/*font properties*/
+body {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  padding: 5px;
+}
+section{
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.85);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-radius: 10px;
+    margin: auto;
+}
+
+/*pictures proprerties*/
+img#icon{
+    margin-top: 5%;
+    width: 38%;
+    height: 38%;
+    filter: drop-shadow(5px 5px 30px #b8b8b8bb);
+}
+
+#pic{
+  max-width: 70%;
+  max-height: 70%;
+  padding: 4px;
+  border-radius: 2%;
+}
+
+#div{
+  width: 100%;
+  position: relative;
+}
+
+/*  caracter properties */
+h1#name{
+  font-size: 250%;
+}
+
+h1{
+  font-size: 175%;
+}
+
+a{
+  text-decoration-line: none;
+}
+
+
+.txt-info{
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: medium;
+}
+
+.title{
+  margin-left: 5.5%;
+}
+
+.txt{
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: medium;
+}
+
+.txt-end{
+  margin-left: 6%;
+  margin-right: 6%;
+  padding-bottom: 2%;
+  font-size: medium;
+}
