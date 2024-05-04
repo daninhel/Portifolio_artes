@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300&display=swap');
 
+:root{
+  --font : 'Source Code Pro', monospace;
+  --color--font : #ffffff;
+}
+/* style for small screns (mobile)*/
 @media (max-width: 600px) {
   body{
     background-image: url("./Pictures/mobilebackground.webp");
@@ -8,17 +13,12 @@
     background-attachment: fixed;
     background-position: center;
   }
-  
+
   section {
     min-width: 80%;
   }
-
-  #social{
-    width: 12%;
-    height: 12%;
-  }
 }
-/* style for small screns*/
+/* style for big screns (tablet and desktop)*/
 @media (min-width: 600px) {
   body {
     background-image: url("./Pictures/pcbackground.webp");
@@ -28,90 +28,89 @@
     background-position: center;
   }
 
-  #social{
-    width: 10%;
-    height: 10%;
-  }
-
   section {
     max-width: 50%;
-    background-size: 110%;
   }
 }
-
-/*font properties*/
+/*universal characteristics*/
 body {
-  font-family: 'Source Code Pro', monospace;
-  color: white;
-  padding: 5px;
+  font-family: var(--font);
+  color: var(--color--font);
 }
+
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 section{
-    min-height: 100vh;
-    background-color: rgba(0, 0, 0, 0.85);
-    background-size: auto 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-radius: 10px;
-    margin: auto;
+  background-color: rgba(0, 0, 0, 0.85);
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
 }
 
+#social-icons{
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+/*font properties*/
+div a p{
+  display: none;
+}
+
+.title{
+  font-size: 2.5rem;
+  margin: 2.5% 5.5%;
+}
+
+.subtitle{
+  font-size: 1.5rem;
+  margin: 2.5% 5.5%;
+}
+
+.txt{
+    margin: 0 6%;
+    font-size: 1.1rem;
+}
 /*pictures proprerties*/
-img#icon{
-    margin-top: 5%;
-    width: 38%;
-    height: 38%;
-    filter: drop-shadow(5px 5px 30px #b8b8b8bb);
+.icon{
+  width: 45%;
+  padding-top: 1.5rem;
 }
 
-#icon-description{
-    display: none;
+div a img{
+  width: 5rem;
 }
 
-#pic{
+div div img{
+  margin: 1rem 0;
   max-width: 70%;
-  max-height: 70%;
-  padding: 4px;
-  border-radius: 2%;
+  border-radius: 1rem;
 }
 
-#div{
+.division{
   width: 100%;
   position: relative;
 }
 
-/*  caracter properties */
-h1#name{
-  font-size: 250%;
-}
-
-h1{
-  font-size: 175%;
-}
-
-a{
-  text-decoration-line: none;
-}
-
-
-.txt-info{
-  margin-left: 6%;
-  margin-right: 6%;
-  font-size: medium;
-}
-
-.title{
-  margin-left: 5.5%;
-}
-
-.txt{
-    margin-left: 6%;
-    margin-right: 6%;
-    font-size: medium;
-}
-
-.txt-end{
-  margin-left: 6%;
-  margin-right: 6%;
-  padding-bottom: 2%;
+footer{
+  margin: 0rem 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-size: medium;
 }
