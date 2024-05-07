@@ -8,7 +8,7 @@
 @media (max-width: 600px) {
   body{
     background-image: url("./Pictures/MobileBackground.webp");
-    background-size: co;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
