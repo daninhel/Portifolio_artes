@@ -7,8 +7,8 @@
 /* style for small screns (mobile)*/
 @media (max-width: 600px) {
   body{
-    background-image: url("./Pictures/mobilebackground.webp");
-    background-size: 120%;
+    background-image: url("./Pictures/MobileBackground.webp");
+    background-size: co;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -17,15 +17,30 @@
   section {
     min-width: 80%;
   }
+
+  div a img{
+    max-width: 20%;
+  }
+
+  #social-icons{
+    margin-top: 1rem;
+  }
 }
 /* style for big screns (tablet and desktop)*/
 @media (min-width: 600px) {
   body {
-    background-image: url("./Pictures/pcbackground.webp");
+    background-image: url("./Pictures/Background.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+  }
+
+  #social-icons{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
   }
 
   section {
@@ -60,12 +75,6 @@ section{
   margin: auto;
 }
 
-#social-icons{
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-}
 /*font properties*/
 div a p{
   display: none;
@@ -97,7 +106,7 @@ div a img{
 
 div div img{
   margin: 1rem 0;
-  max-width: 70%;
+  max-width: 75%;
   border-radius: 1rem;
 }
 
