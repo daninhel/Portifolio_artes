@@ -7,11 +7,10 @@
 /* style for small screns (mobile)*/
 @media (max-width: 600px) {
   body{
-    background-image: url("./Pictures/MobileBackground.webp");
+    background-image: url("./Pictures/MobileBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
   }
 
   section {
