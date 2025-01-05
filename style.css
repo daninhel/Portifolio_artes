@@ -16,8 +16,12 @@
       min-width: 80%;
     }  
   }
-  div a img{
-    max-width: 20%;
+  div a{
+    text-decoration: none;
+    
+    & img{
+      max-width: 20%;
+    }
   }
 
   #social-icons{
