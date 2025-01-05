@@ -7,16 +7,15 @@
 /* style for small screns (mobile)*/
 @media (max-width: 600px) {
   body{
-    background-image: url("./Pictures/MobileBackground.jpg");
+    background-image: url("./Pictures/MobileBackground.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-  }
 
-  section {
-    min-width: 80%;
+    &   section {
+      min-width: 80%;
+    }  
   }
-
   div a img{
     max-width: 20%;
   }
@@ -34,6 +33,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+
+    &  section {
+      max-width: 50%;
+    }
   }
 
   #social-icons{
@@ -41,10 +44,6 @@
     display: flex;
     flex-direction: row;
     gap: 2rem;
-  }
-
-  section {
-    max-width: 50%;
   }
 }
 /*universal characteristics*/
